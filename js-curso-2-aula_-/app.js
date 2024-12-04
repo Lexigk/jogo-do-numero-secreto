@@ -11,7 +11,8 @@ function exibirTextoNaTela(tag, texto){   //alterar texto no HTML, tag é o loca
 
 function exibirMensagemInicial(){  //uso da função anterior de juntar o JS com o HTML para exibir o texto
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+    let instrcaoJogo = `Escolha um número entre 1 e ${numeroLimite}`;
+    exibirTextoNaTela('p', instrcaoJogo);
 }
 exibirMensagemInicial();  //chama a função para exibir a mensagem
 
