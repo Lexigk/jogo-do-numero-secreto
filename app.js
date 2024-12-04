@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = []; // cria lista de numeros vazia para adicionar 
-let numeroLimite = 10; //define o número máximo
+let numeroLimite = 100; //define o número máximo
 let numeroSecreto = gerarNumeroAleatorio(); //define o número secreto
 let tentativas = 1; //define o número de tentativas iniciais
 
